@@ -1,0 +1,107 @@
+@media(max-width:1200px){
+.s-hero .text{
+    max-width: 49%;
+}
+.card-feature .all-cards{
+    width: 100%;
+}
+.card-feature .all-cards .card{
+    width: 32%;
+}
+
+}
+@media(max-width:991px){
+header nav{
+    display: none;
+}
+header .menu-mobile{
+display: block;
+}
+.s-hero .container{
+    flex-direction: column;
+}
+.s-hero .text{
+    max-width: 100%;
+    margin-bottom: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.s-hero .text h1{
+    text-align: center;
+}
+.s-hero .text p{
+    text-align: center;
+}
+.card-feature .all-cards{
+flex-direction: column;}
+
+.card-feature .all-cards .card {width: 100%;
+    max-width: 100%;
+    height: auto;
+    padding: 30px 0px;
+    margin-bottom: 20px;
+    padding: 3rem;
+}
+.card-feature .all-cards .card info{
+    max-width: 100%;
+margin-top: 20px;
+
+}
+
+.card-feature .all-cards .card:last-child{
+    margin-bottom: 0px;
+}
+.card-feature .all-cards .card-do{
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    padding: 30px 0px;
+    margin-bottom: 20px;
+    padding: 3rem;
+}
+ 
+
+}
+
+@media(max-width:768px){
+    
+}
+@media(max-width:600px){
+
+}
+@media(max-width:480px){
+    html{font-size: 55%;  }
+
+    header .logo{
+        max-width: 130px;
+    }
+ .s-hero{
+    padding: 4rem 0px;
+ }
+ .s-hero .text p{
+ margin-bottom: 3rem ;
+ }
+ .s-hero .image{
+    height: 30rem;
+ }
+ .s-hero .image img{
+max-width: 100%;
+ }
+ h1{font-size: 4.2rem;}
+
+ .card-feature{
+    padding: 4rem 0;
+ }
+ .card-feature .title p{
+    text-align: center;
+    max-width: 80%;
+ }
+ .card-feature .main-area{
+    padding-bottom: 4rem;
+ }
+ .s-newsletter{
+    padding: 4rem 0;
+ }
+}
